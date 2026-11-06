@@ -1,0 +1,101 @@
+[
+  {
+    "id": "1",
+    "displayName": "Avery Healthy",
+    "userPrincipalName": "avery.healthy@example.com",
+    "accountEnabled": true,
+    "userType": "Member",
+    "lastSignInDateTime": "2026-11-01T09:12:00Z",
+    "assignedLicenses": ["E3"],
+    "roles": [],
+    "mfaRegistered": true
+  },
+  {
+    "id": "2",
+    "displayName": "Stale Sal",
+    "userPrincipalName": "stale.sal@example.com",
+    "accountEnabled": true,
+    "userType": "Member",
+    "lastSignInDateTime": "2026-06-01T08:00:00Z",
+    "assignedLicenses": ["E3"],
+    "roles": [],
+    "mfaRegistered": true
+  },
+  {
+    "id": "3",
+    "displayName": "Never Nadia",
+    "userPrincipalName": "never.nadia@example.com",
+    "accountEnabled": true,
+    "userType": "Member",
+    "lastSignInDateTime": null,
+    "assignedLicenses": ["E3"],
+    "roles": [],
+    "mfaRegistered": true
+  },
+  {
+    "id": "4",
+    "displayName": "Guest Gus",
+    "userPrincipalName": "gus_partner#EXT#@example.com",
+    "accountEnabled": true,
+    "userType": "Guest",
+    "lastSignInDateTime": "2026-10-01T12:00:00Z",
+    "assignedLicenses": [],
+    "roles": [],
+    "mfaRegistered": true
+  },
+  {
+    "id": "5",
+    "displayName": "Disabled Dana",
+    "userPrincipalName": "disabled.dana@example.com",
+    "accountEnabled": false,
+    "userType": "Member",
+    "lastSignInDateTime": "2026-09-01T07:30:00Z",
+    "assignedLicenses": ["E5"],
+    "roles": [],
+    "mfaRegistered": true
+  },
+  {
+    "id": "6",
+    "displayName": "NoMFA Nate",
+    "userPrincipalName": "nomfa.nate@example.com",
+    "accountEnabled": true,
+    "userType": "Member",
+    "lastSignInDateTime": "2026-11-02T15:45:00Z",
+    "assignedLicenses": ["E3"],
+    "roles": [],
+    "mfaRegistered": false
+  },
+  {
+    "id": "7",
+    "displayName": "Admin Alice",
+    "userPrincipalName": "admin.alice@example.com",
+    "accountEnabled": true,
+    "userType": "Member",
+    "lastSignInDateTime": "2025-01-01T10:00:00Z",
+    "assignedLicenses": ["E5"],
+    "roles": ["Global Administrator"],
+    "mfaRegistered": false
+  },
+  {
+    "id": "8",
+    "displayName": "Admin Ben",
+    "userPrincipalName": "admin.ben@example.com",
+    "accountEnabled": true,
+    "userType": "Member",
+    "lastSignInDateTime": "2026-11-03T11:20:00Z",
+    "assignedLicenses": ["E3"],
+    "roles": ["User Administrator"],
+    "mfaRegistered": true
+  },
+  {
+    "id": "9",
+    "displayName": "Contractor Cleo",
+    "userPrincipalName": "cleo_contractor#EXT#@example.com",
+    "accountEnabled": true,
+    "userType": "Guest",
+    "lastSignInDateTime": "2026-10-20T09:00:00Z",
+    "assignedLicenses": [],
+    "roles": [],
+    "mfaRegistered": false
+  }
+]
