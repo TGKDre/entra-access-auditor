@@ -1,5 +1,7 @@
 # Entra Access Auditor
 
+[![ci](https://github.com/TGKDre/entra-access-auditor/actions/workflows/ci.yml/badge.svg)](https://github.com/TGKDre/entra-access-auditor/actions/workflows/ci.yml)
+
 A focused identity governance auditor for Microsoft Entra ID accounts. Point it at
 an account export and it flags the things that quietly cost money and create risk:
 stale enabled accounts, guest sprawl, licenses sitting on disabled users,
@@ -9,8 +11,8 @@ It prints a plain summary, writes a CSV for tracking, and writes a self-containe
 HTML report for a manager or a ticket.
 
 This is a clean-room project. It ships with synthetic sample data and needs no
-live tenant to run. Point it at a real export (or wire the optional Graph fetch)
-when you adopt it.
+live tenant to run. Point it at a real export when you adopt it, or add your own
+read-only Microsoft Graph fetch in front of the same loader.
 
 ## Why it exists
 
@@ -28,7 +30,7 @@ python -m entra_auditor.cli --input data/sample/users.json --out reports
 Output:
 
 ```
-Scanned 9 accounts. 9 findings (high 3, medium 3, low 3).
+Scanned 9 accounts. 13 findings (high 4, medium 6, low 3).
 Wrote reports/findings.csv and reports/report.html
 ```
 
